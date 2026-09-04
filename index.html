@@ -6,6 +6,67 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Hero section: the first thing visitors see -->
+  <header class="hero" id="home">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="logo" href="#home">My Portfolio</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Beginning web developer</p>
+      <h1>Hello, I'm Elaine.</h1>
+      <p class="hero-text">I create simple, thoughtful websites while I learn the foundations of HTML and CSS. I can't wait to share my projects as I continue to learn and grow in my knowledge throughout the semester.</p>
+      <a class="button" href="#about">GET TO KNOW ME</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Bio section: a short introduction -->
+    <section class="bio section" id="about">
+      <p class="section-label">A little about me</p>
+      <h2>Curious, creative, and always learning.</h2>
+      <p>I'm a college student exploring the world of web development. I enjoy turning ideas into clear, welcoming web pages and learning something new with every project.</p>
+      <p>When I'm away from my computer, you can find me taking photos, listening to music, or spending time with friends and family.</p>
+    </section>
+
+    <!-- Skills section: beginner-friendly skills list -->
+    <section class="skills section" id="skills">
+      <p class="section-label">What I'm practicing</p>
+      <h2>My skills...</h2>
+      <div class="skill-list">
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">&#128196;</span>
+          <span class="skill-number">01</span>
+          <h3>HTML</h3>
+          <p>Building organized pages with meaningful, semantic elements.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">&#60;/&#62;</span>
+          <span class="skill-number">02</span>
+          <h3>CSS</h3>
+          <p>Adding color, spacing, typography, and responsive design.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">&#128161;</span>
+          <span class="skill-number">03</span>
+          <h3>Problem Solving</h3>
+          <p>Breaking large ideas into small steps and testing my work.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section: a simple way for visitors to connect -->
+  <footer class="footer" id="contact">
+    <h2>Connect here!</h2>
+    <a class="footer-link" href="mailto:elaine@example.com">elaine@example.com</a>
+    <p class="copyright">&copy; 2026 Elaine. Built with HTML and CSS.</p>
+  </footer>
 </body>
 </html>
